@@ -24,7 +24,8 @@ const Model = (props) => {
         name: surveyData.name || "Default Model",
         description: surveyData.description || "This is a default description for the model.",
         floors: surveyData.floors || "1-4",
-        rooms: surveyData.rooms || "1-6"
+        rooms: surveyData.rooms || "1-6",
+        price: surveyData.price || "100000"
       });
     }
   }, []);
@@ -152,7 +153,7 @@ const Model = (props) => {
             </div>
             <div className="model-price-estimate">
               <div className="model-container19"><span className="model-text34">ESTIMATED PRICE:</span></div>
-              <div className="model-container20"><span className="model-text35">1</span></div>
+              <div className="model-container20"><span className="model-text35">{modelData.price}</span></div>
             </div>
           </div>
           <div className="model-model">
