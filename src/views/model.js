@@ -9,16 +9,26 @@ import ThreeDModelViewer from './threed';
 import './model.css';
 
 const Model = (props) => {
-  const [modelUrl, setModelUrl] = useState(`${process.env.PUBLIC_URL}/modern_house1/scene.gltf`);
+  const [modelData, setModelData] = useState({
+    modelUrl: `${process.env.PUBLIC_URL}/modern_house1/scene.gltf`,
+    name: "Default Model",
+    description: "This is a default description for the model.",
+  });
 
   useEffect(() => {
     const surveyData = JSON.parse(localStorage.getItem('surveyData'));
-    if (surveyData && surveyData.modelUrl) {
-      console.log("Model URL from surveyData:", surveyData.modelUrl);
-      setModelUrl(surveyData.modelUrl);
+    if (surveyData) {
+      console.log("Survey Data Loaded:", surveyData);
+      setModelData({
+        modelUrl: surveyData.modelUrl || `${process.env.PUBLIC_URL}/modern_house1/scene.gltf`,
+        name: surveyData.name || "Default Model",
+        description: surveyData.description || "This is a default description for the model.",
+        floors: surveyData.floors || "1-4",
+        rooms: surveyData.rooms || "1-6"
+      });
     }
   }, []);
-  
+
   return (
     <div className="model-container10">
       <Helmet>
@@ -95,7 +105,7 @@ const Model = (props) => {
         }
         logoCenter1={
           <Fragment>
-            <span className="home-text115">MOBILLIO</span>
+            <span className="home-text115">CRAFTING COMFORT</span>
           </Fragment>
         }
         rootClassName="navbarroot-class-name3"
@@ -111,23 +121,23 @@ const Model = (props) => {
             </div>
             <div className="model-name">
               <div className="model-question"><span>MODEL NAME:</span></div>
-              <div className="model-answer"><span className="model-text26">ABCD</span></div>
+              <div className="model-answer"><span className="model-text26">{modelData.name}</span></div>
             </div>
             <div className="model-description">
               <div className="model-container12"><span className="model-text27">DESCRIPTION:</span></div>
               <div className="model-container13">
                 <span className="model-text28">
-                  The software system ‘Crafting Comfort’ shall allow a registered user to go through a survey, receive an appropriate 3D model of a house based on their requirements, and interact and customize it to a certain extent. The system will also provide a construction cost estimate, with further customization options available through other contractors.
+                {modelData.description}
                 </span>
               </div>
             </div>
             <div className="model-nofloors">
               <div className="model-container14"><span className="model-text29">NO OF FLOORS:</span></div>
-              <div className="model-container15"><span className="model-text30">1</span></div>
+              <div className="model-container15"><span className="model-text30">{modelData.floors}</span></div>
             </div>
             <div className="model-norooms">
               <div className="model-container16"><span>NO OF ROOMS:</span></div>
-              <div className="model-container17"><span className="model-text32">1</span></div>
+              <div className="model-container17"><span className="model-text32">{modelData.rooms}</span></div>
             </div>
             <div className="model-material-select">
               <div className="model-container18"><span className="model-text33">SELECTION OF MATERIALS:</span></div>
@@ -146,7 +156,7 @@ const Model = (props) => {
             </div>
           </div>
           <div className="model-model">
-            <ThreeDModelViewer key ={modelUrl} modelUrl={modelUrl} />
+            <ThreeDModelViewer key ={modelData.modelUrl} modelUrl={modelData.modelUrl} />
           </div>
         </div>
       </div>

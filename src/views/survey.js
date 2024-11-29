@@ -57,7 +57,6 @@ const Survey = (props) => {
   };
 
   const handleSubmit = () => {
-    // Answers to the questions stored in this survey data variable
     const surveyData = {
       landscape,
       houseType,
@@ -71,37 +70,71 @@ const Survey = (props) => {
     };
 
     let modelUrl = '/002/scene.gltf'; 
+    let rooms = '1-6';
+    let name = 'hi';
+    let floors = '3';
+    let description = '4';
 
     if(houseType=='Quadruplex') {
-
       modelUrl = '/002/scene.gltf';
+      name = 'The Grand Haven';
+      description = 'A stunning quadruplex house offering spacious interiors and customizable rooms, perfect for large families.';
+      floors = '4';
     }
     else if((houseType=='Single Storey' && balcony=='Yes' && parking=='Yes') || (houseType=='Single Storey' && pool=='No' && balcony=='Yes' && garage=='No' && parking=='No')) {
       modelUrl = '/008/scene.gltf';
+      name = 'The Smart Space';
+      description = 'A single-floored home designed with smart use of space, ideal for a compact yet functional lifestyle.';
+      floors = '1';
     }
     else if((houseType=='Single Storey' && parking=='Yes') || (houseType=='Single Storey' && pool=='No' && balcony=='No' && garage=='No' && parking=='Yes') || (houseType=='Single Storey' && pool=='No' && balcony=='Yes' && garage=='No' && parking=='Yes')) {
       modelUrl = '/004/scene.gltf';
+      name = 'The Minimalist Home';
+      description = 'A single-floored house designed with simplicity and efficiency in mind, featuring flexible room options.';
+      floors = '1';
     }
     else if(houseType=='Single Storey') {
       modelUrl = '/005/scene.gltf';
+      name = 'The Compact Nest';
+      description = 'A cozy single-floor home offering flexibility and comfort, ideal for small families or individuals.';
+      floors = '1';
     }
     else if(houseType=='Duplex' && pool=='No' && balcony=='No' && garage=='Yes' && parking=='Yes') {
       modelUrl = '/001/scene.gltf';
+      name = 'The Cozy Retreat';
+      description = 'A charming duplex home designed for comfort and functionality, featuring flexible rooms to suit your needs.';
+      floors = '2';
     }
     else if(houseType=='Villa' && pool=='No' && balcony=='Yes' && garage=='No' && parking=='Yes') {
       modelUrl = '/003/scene.gltf';
+      name = 'The Elegant Villa';
+      description = 'A luxurious villa with 2 to 3 floors, blending modern design with spacious living areas and flexible room layouts.';
+      floors = '2 to 3';
     } 
     else if(houseType=='Villa' && pool=='No' && balcony=='No' && garage=='No' && parking=='Yes') {
       modelUrl = '/006/scene.gltf';
+      name = 'The Classic Villa';
+      description = 'A timeless villa with 2 to 3 floors, providing ample space and elegance with versatile room designs.';
+      floors = '2 to 3';
     }
     else if(houseType=='Duplex' && pool=='No' && balcony=='Yes' && garage=='No' && parking=='Yes') {
       modelUrl = '/007/scene.gltf';
+      name = 'The Twin Haven';
+      description = 'A modern duplex home designed for functionality and style, with flexible room arrangements.';
+      floors = '2';
     }
     else {
       modelUrl = '/001/scene.gltf';
+      name = 'The Cozy Retreat';
+      description = 'A charming duplex home designed for comfort and functionality, featuring flexible rooms to suit your needs.';
+      floors = '2';
     }
 
     surveyData.modelUrl = modelUrl;
+    surveyData.rooms = rooms;
+    surveyData.floors = floors;
+    surveyData.name = name;
+    surveyData.description = description;
     localStorage.setItem('surveyData', JSON.stringify(surveyData));
     
     history.push('/model');
@@ -110,8 +143,8 @@ const Survey = (props) => {
   return (
     <div className="survey-container1">
       <Helmet>
-        <title>Survey - Mobillio Online Store</title>
-        <meta property="og:title" content="Survey - Mobillio Online Store" />
+        <title>Survey - Crafting Comfort</title>
+        <meta property="og:title" content="Survey - Crafting Comfort" />
       </Helmet>
       <Navbar
         text={
@@ -183,7 +216,7 @@ const Survey = (props) => {
         }
         logoCenter1={
           <Fragment>
-            <span className="home-text115">MOBILLIO</span>
+            <span className="home-text115">CRAAFTING COMFORT</span>
           </Fragment>
         }
         rootClassName="navbarroot-class-name3"
