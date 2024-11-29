@@ -1,0 +1,11 @@
+Model Information:
+* title:	Simple house
+* source:	https://sketchfab.com/3d-models/simple-house-67f7211f3d3b42058622b7935b42e6ad
+* author:	lurtisrules (https://sketchfab.com/lurtisrules)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Simple house" (https://sketchfab.com/3d-models/simple-house-67f7211f3d3b42058622b7935b42e6ad) by lurtisrules (https://sketchfab.com/lurtisrules) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

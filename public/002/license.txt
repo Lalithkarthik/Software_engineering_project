@@ -1,0 +1,11 @@
+Model Information:
+* title:	A low poly House
+* source:	https://sketchfab.com/3d-models/a-low-poly-house-53966d69bfb2455d84259ada31963865
+* author:	Aditya Graphical (https://sketchfab.com/Adityakm)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "A low poly House" (https://sketchfab.com/3d-models/a-low-poly-house-53966d69bfb2455d84259ada31963865) by Aditya Graphical (https://sketchfab.com/Adityakm) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

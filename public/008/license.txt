@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modern house with interior
+* source:	https://sketchfab.com/3d-models/modern-house-with-interior-1f1a5eb3dfc54ae9bc72cffabea4802e
+* author:	vikista (https://sketchfab.com/vikista)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modern house with interior" (https://sketchfab.com/3d-models/modern-house-with-interior-1f1a5eb3dfc54ae9bc72cffabea4802e) by vikista (https://sketchfab.com/vikista) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

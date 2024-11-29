@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modern House
+* source:	https://sketchfab.com/3d-models/modern-house-5e89e6689c134d54860e38eb35761ffe
+* author:	shibu7202 (https://sketchfab.com/shibu7202)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modern House" (https://sketchfab.com/3d-models/modern-house-5e89e6689c134d54860e38eb35761ffe) by shibu7202 (https://sketchfab.com/shibu7202) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

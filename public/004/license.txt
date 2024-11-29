@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modern House SO
+* source:	https://sketchfab.com/3d-models/modern-house-so-bd1b0d8ac7944fd9b9cb05a66ae4213d
+* author:	Soir_Onin (https://sketchfab.com/Soir_Onin)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modern House SO" (https://sketchfab.com/3d-models/modern-house-so-bd1b0d8ac7944fd9b9cb05a66ae4213d) by Soir_Onin (https://sketchfab.com/Soir_Onin) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

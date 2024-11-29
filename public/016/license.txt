@@ -1,0 +1,11 @@
+Model Information:
+* title:	modern house 2
+* source:	https://sketchfab.com/3d-models/modern-house-2-3e497f7b3ec5410e9a2ffe0b2490cc0e
+* author:	qurbanova.irade (https://sketchfab.com/qurbanova.irade)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "modern house 2" (https://sketchfab.com/3d-models/modern-house-2-3e497f7b3ec5410e9a2ffe0b2490cc0e) by qurbanova.irade (https://sketchfab.com/qurbanova.irade) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
