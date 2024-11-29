@@ -26,21 +26,80 @@ const Model = (props) => {
         <meta property="og:title" content="Software Project" />
       </Helmet>
       <Navbar
-        text={<Fragment><span className="model-text10">HOME</span></Fragment>}
-        text1={<Fragment><span className="model-text11 navbar-link">ABOUT US</span></Fragment>}
-        text2={<Fragment><span className="model-text12 navbar-link">WISHLIST</span></Fragment>}
-        text3={<Fragment><span className="model-text13 navbar-link">CONTACT</span></Fragment>}
-        text4={<Fragment><span className="model-text14">SHOP</span></Fragment>}
-        text5={<Fragment><span className="model-text15">LOOKBOOK</span></Fragment>}
-        text6={<Fragment><span className="model-text16">SPECIAL</span></Fragment>}
-        text7={<Fragment><span className="model-text17">ABOUT</span></Fragment>}
-        text8={<Fragment><span className="model-text18">BLOG</span></Fragment>}
-        text9={<Fragment><span className="model-text19">CONTACT</span></Fragment>}
-        button={<Fragment><span className="model-text20">Register/Login</span></Fragment>}
-        logoCenter={<Fragment><span className="model-logo-center navbar-logo-title">CRAFTING COMFORT</span></Fragment>}
-        logoCenter1={<Fragment><span className="model-text23">MOBILLIO</span></Fragment>}
-        rootClassName="navbarroot-class-name2"
-      />
+        text={
+          <Fragment>
+            <span className="home-text100">
+              <span className="home-text101">HOME</span>
+              <br className="home-text102"></br>
+            </span>
+          </Fragment>
+        }
+        text1={
+          <Fragment>
+            <span className="home-text103 navbar-link">ABOUT US</span>
+          </Fragment>
+        }
+        text2={
+          <Fragment>
+            <span className="home-text104 navbar-link">WISHLIST</span>
+          </Fragment>
+        }
+        text3={
+          <Fragment>
+            <span className="home-text105 navbar-link">CONTACT</span>
+          </Fragment>
+        }
+        text4={
+          <Fragment>
+            <span className="home-text106">SHOP</span>
+          </Fragment>
+        }
+        text5={
+          <Fragment>
+            <span className="home-text107">LOOKBOOK</span>
+          </Fragment>
+        }
+        text6={
+          <Fragment>
+            <span className="home-text108">SPECIAL</span>
+          </Fragment>
+        }
+        text7={
+          <Fragment>
+            <span className="home-text109">ABOUT</span>
+          </Fragment>
+        }
+        text8={
+          <Fragment>
+            <span className="home-text110">BLOG</span>
+          </Fragment>
+        }
+        text9={
+          <Fragment>
+            <span className="home-text111">CONTACT</span>
+          </Fragment>
+        }
+        button={
+          <Fragment>
+            <span className="home-text112">Register/Login</span>
+          </Fragment>
+        }
+        imageSrc="/butterfly-200h.jpg"
+        logoCenter={
+          <Fragment>
+            <span className="home-logo-center navbar-logo-title">
+              <span className="home-text113">CRAFTING COMFORT</span>
+              <br></br>
+            </span>
+          </Fragment>
+        }
+        logoCenter1={
+          <Fragment>
+            <span className="home-text115">MOBILLIO</span>
+          </Fragment>
+        }
+        rootClassName="navbarroot-class-name3"
+      ></Navbar>
 
       <div className="model-hero section-container">
         <div className="model-contents">
