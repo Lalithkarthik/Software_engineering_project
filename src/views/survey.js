@@ -70,8 +70,7 @@ const Survey = (props) => {
       numEntrances
     };
 
-    // Generate the model URL based on user input
-    let modelUrl = '/002/scene.gltf'; // default model
+    let modelUrl = '/002/scene.gltf'; 
 
     if(houseType=='Quadruplex') {
 
@@ -102,10 +101,9 @@ const Survey = (props) => {
       modelUrl = '/001/scene.gltf';
     }
 
-    surveyData.modelUrl = modelUrl; // Save the model URL in survey data
+    surveyData.modelUrl = modelUrl;
     localStorage.setItem('surveyData', JSON.stringify(surveyData));
-
-    // Navigate to the model page
+    
     history.push('/model');
   };
 
