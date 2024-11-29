@@ -1,9 +1,3 @@
-html {
-  transform: scale(0.8); 
-  transform-origin: top left;
-  overflow-x: hidden; 
-}
-
 :root {
   --dl-color-gray-500: #595959;
   --dl-color-gray-700: #999999;
